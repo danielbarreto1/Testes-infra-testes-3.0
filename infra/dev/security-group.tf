@@ -50,8 +50,8 @@ locals {
       }
       ingress_rules = [
         {
-          from_port                  = 8081
-          to_port                    = 8081
+          from_port                  = 8080
+          to_port                    = 8080
           protocol                   = "tcp"
           source_security_group_name = "sg_teste"
           description                = "Permitir trafego de entrada para via web"
